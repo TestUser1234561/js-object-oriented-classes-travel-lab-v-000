@@ -14,8 +14,10 @@ class Route {
     this.beginningLocation = a;
     this.endingLocation = b;
   }
-  
-  blocksTravelled() {
 
+  blocksTravelled() {
+    if(this.beginningLocation.vertical > this.endingLocation.vertical) {
+       return this.beginningLocation.vertical - this.endingLocation.vertical
+    }
   }
 }
