@@ -18,8 +18,6 @@ class Route {
   }
 
   blocksTravelled() {
-    if(this.beginningLocation.vertical < this.endingLocation.vertical) {
-       return this.endingLocation.vertical - this.beginningLocation.vertical;
-    }
+       return (Math.abs(this.endingLocation.vertical - this.beginningLocation.vertical) + ;
   }
 }
