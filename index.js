@@ -8,3 +8,7 @@ class Driver {
     return n - this.startDate.getFullYear()
   }
 }
+
+class Route {
+  
+}
