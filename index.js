@@ -23,7 +23,7 @@ class Route {
 
   estimatedTime(p) {
     if(p) {
-      return blocksTravelled / 2
+      return this.blocksTravelled() / 2
     } else {
 
     }
