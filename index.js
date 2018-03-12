@@ -14,6 +14,7 @@ class Route {
     this.beginningLocation = a;
     this.endingLocation = b;
   }
+  
   blocksTravelled() {
 
   }
